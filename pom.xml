@@ -41,6 +41,12 @@
 			<scope>test</scope>
 		</dependency>
 		
+		<!-- Spring Security -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		
 		<!-- JPA/MySql/H2 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -55,7 +61,7 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency>		
 		
 	</dependencies>
 
