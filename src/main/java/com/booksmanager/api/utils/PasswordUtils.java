@@ -2,7 +2,7 @@ package com.booksmanager.api.utils;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-public class SenhaUtils {
+public class PasswordUtils {
 	
 	/**
 	 * Gera um hash utilizando o BCrypt.
